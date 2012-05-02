@@ -1,6 +1,7 @@
 Revision history for MooseX-UndefTolerant
 
 {{$NEXT}}
+    * re-release of 0.13 to fix a PAUSE indexing issue.
 
 0.13    2012-03-25
     * unit test improvements - tighter TODO scopes, better diagnostics on
