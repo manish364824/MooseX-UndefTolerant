@@ -1,6 +1,7 @@
 Revision history for MooseX-UndefTolerant
 
 {{$NEXT}}
+    * re-release to fix dependency issue *again*! :)
 
 0.16      2012-05-02 15:13:01 PDT-0700
     * remove temporary dep, and increase the required version of
