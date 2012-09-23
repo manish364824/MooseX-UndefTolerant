@@ -11,7 +11,7 @@ around('initialize_instance_slot', sub {
     # If our parameter passed in was undef, remove it from the parameter list...
     # but leave the value unscathed if the attribute's type constraint can
     # handle undef (or doesn't have one, which implicitly means it can)
-    if (not defined $key_name or not defined($params->{$key_name}))
+    if (defined $key_name and not defined($params->{$key_name}))
     {
         my $type_constraint = $self->type_constraint;
         if ($type_constraint and not $type_constraint->check(undef))
@@ -20,7 +20,7 @@ around('initialize_instance_slot', sub {
         }
     }
 
-    # Invoke the real init, as the above line cleared the undef
+    # Invoke the real init, as the above line cleared the undef param value
     $self->$orig(@_)
 });
 
