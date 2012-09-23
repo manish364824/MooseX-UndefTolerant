@@ -15,7 +15,6 @@ has 'bar' => (
     predicate => 'has_bar'
 );
 
-__PACKAGE__->meta->make_immutable;
 }
 
 package main;
