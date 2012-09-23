@@ -3,7 +3,7 @@ package MooseX::UndefTolerant;
 use strict;
 use warnings;
 
-use Moose qw();
+use Moose 0.89 qw();
 use Moose::Exporter;
 
 use MooseX::UndefTolerant::Attribute;
