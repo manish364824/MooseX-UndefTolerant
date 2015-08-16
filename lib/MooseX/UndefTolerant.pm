@@ -151,16 +151,12 @@ this is expected to be changing shortly.
 
 Many thanks to the crew in #moose who talked me through this module:
 
+=for :list
 Hans Dieter Pearcey (confound)
-
 Jesse Luehrs (doy)
-
 Tomas Doran (t0m)
-
 Dylan Hardison (dylan)
-
 Jay Shirley (jshirley)
-
 Mike Eldridge (diz)
 
 =cut
