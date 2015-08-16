@@ -1,4 +1,7 @@
 package MooseX::UndefTolerant::ApplicationToClass;
+
+our $VERSION = '0.20';
+
 use Moose::Role;
 
 around apply => sub {

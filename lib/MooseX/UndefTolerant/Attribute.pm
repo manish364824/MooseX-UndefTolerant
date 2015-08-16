@@ -1,4 +1,7 @@
 package MooseX::UndefTolerant::Attribute;
+
+our $VERSION = '0.20';
+
 use Moose::Role;
 
 around('initialize_instance_slot', sub {
