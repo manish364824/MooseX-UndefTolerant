@@ -1,11 +1,6 @@
-.*
-!.gitignore
-Moose-*
-MooseX-*
-*.bs
-*.c
-*.o
-cover_db
-*.gc??
-test-mydeps-*
-notes/
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/MooseX-UndefTolerant-*/
+/MooseX-UndefTolerant-*.tar.gz
