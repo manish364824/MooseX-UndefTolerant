@@ -105,7 +105,7 @@ of that role's attributes will be undef-tolerant.
 
 =head1 MOTIVATION
 
-I often found myself in this quandry:
+I often found myself in this quandary:
 
   package My:Class;
   use Moose;
@@ -131,6 +131,8 @@ real solution was:
     $class = My:Class->new(bar => 123);
   }
 
+=for stopwords codemulch
+
 Or some type of codemulch using ternary conditionals.  This module allows you
 to make your attributes more tolerant of undef so that you can keep the first
 example: have your cake and eat it too!
@@ -150,6 +152,8 @@ this is expected to be changing shortly.
 =head1 ACKNOWLEDGEMENTS
 
 Many thanks to the crew in #moose who talked me through this module:
+
+=for stopwords Doran Eldridge Hardison Pearcey diz dylan jshirley
 
 =for :list
 Hans Dieter Pearcey (confound)

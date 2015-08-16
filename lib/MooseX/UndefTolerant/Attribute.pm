@@ -30,7 +30,7 @@ around('initialize_instance_slot', sub {
 
 1;
 
-# ABSTRACT: Make your attribute(s) tolerant to undef intitialization
+# ABSTRACT: Make your attribute(s) tolerant to undef initialization
 
 __END__
 
