@@ -1,6 +1,7 @@
 Revision history for MooseX-UndefTolerant
 
 {{$NEXT}}
+   * repository migrated to the github moose organization
 
 0.19      2012-09-25 17:16:40 PDT-0700 (Karen Etheridge)
    * fix incorrect version dependency on Test::NoWarnings
