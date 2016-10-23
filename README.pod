@@ -8,7 +8,7 @@ MooseX::UndefTolerant - Make your attribute(s) tolerant to undef initialization
 
 =head1 VERSION
 
-version 0.20
+version 0.21
 
 =head1 SYNOPSIS
 
@@ -124,6 +124,17 @@ Mike Eldridge (diz)
 
 =back
 
+=head1 SUPPORT
+
+Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=MooseX-UndefTolerant>
+(or L<bug-MooseX-UndefTolerant@rt.cpan.org|mailto:bug-MooseX-UndefTolerant@rt.cpan.org>).
+
+There is also a mailing list available for users of this distribution, at
+L<http://lists.perl.org/list/moose.html>.
+
+There is also an irc channel available for users of this distribution, at
+L<C<#moose> on C<irc.perl.org>|irc://irc.perl.org/#moose>.
+
 =head1 AUTHOR
 
 Cory G Watson <gphat at cpan.org>
@@ -156,7 +167,7 @@ Chris Andrews <chrisandrews@venda.com>
 
 =back
 
-=head1 COPYRIGHT AND LICENCE
+=head1 COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2011 by Cory G Watson.
 
