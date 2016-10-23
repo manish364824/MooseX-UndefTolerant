@@ -1,6 +1,7 @@
 Revision history for MooseX-UndefTolerant
 
 {{$NEXT}}
+   * avoid failing tests when upstream modules warn
 
 0.20      2015-08-16 02:45:25Z
    * repository migrated to the github moose organization

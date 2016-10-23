@@ -1,10 +1,10 @@
 use strict;
 use warnings;
 
-use Test::More tests => 7;
+use Test::More 0.88;
 use Test::Fatal;
 use Test::Moose;
-use Test::NoWarnings 1.04 ':early';
+use if $ENV{AUTHOR_TESTING}, 'Test::Warnings';
 
 {
 package Foo;
@@ -29,3 +29,4 @@ with_immutable
     is(exception { my $foo = Foo->new(bar => 1234) }, undef, 'constructed with defined value');
 } 'Foo';
 
+done_testing;
