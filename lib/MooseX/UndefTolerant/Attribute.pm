@@ -56,7 +56,7 @@ __END__
 
 =head1 DESCRIPTION
 
-Applying this trait to your attribute makes it's initialization tolerant of
+Applying this trait to your attribute makes its initialization tolerant of
 of undef.  If you specify the value of undef to any of the attributes they
 will not be initialized (or will be set to the default, if applicable).
 Effectively behaving as if you had not provided a value at all.
