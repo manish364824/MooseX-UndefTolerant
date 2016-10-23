@@ -1,5 +1,7 @@
 Revision history for MooseX-UndefTolerant
 
+{{$NEXT}}
+
 0.21      2016-10-23 01:05:18Z
    * avoid failing tests when upstream modules warn
 

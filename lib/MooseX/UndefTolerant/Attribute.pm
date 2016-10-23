@@ -1,6 +1,6 @@
 package MooseX::UndefTolerant::Attribute;
 
-our $VERSION = '0.21';
+our $VERSION = '0.22';
 
 use Moose::Role;
 use namespace::autoclean;
