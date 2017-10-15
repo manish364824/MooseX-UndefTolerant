@@ -5,7 +5,7 @@ our $VERSION = '0.22';
 use strict;
 use warnings;
 
-use Moose 0.89 qw();
+use Moose 0.89 ();
 use Moose::Exporter;
 
 use MooseX::UndefTolerant::Attribute;
