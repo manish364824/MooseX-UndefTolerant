@@ -153,7 +153,7 @@ this is expected to be changing shortly.
 
 Many thanks to the crew in #moose who talked me through this module:
 
-=for stopwords Doran Eldridge Hardison Pearcey diz dylan jshirley
+=for stopwords Doran Eldridge Hardison Pearcey diz dylan jshirley Luehrs doy
 
 =for :list
 Hans Dieter Pearcey (confound)
